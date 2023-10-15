@@ -457,7 +457,7 @@ M.plugins = {
     -----------------------------------------
     NvimTreeFolderIcon       = { fg = colors.orange },
     NvimTreeEmptyFolderName  = { fg = colors.yellow, style = "italic" },
-    NvimTreeCursorLine       = { fg = colors.white, bg = colors.line_fg},
+    NvimTreeCursorLine       = { fg = colors.white, bg = colors.line_fg },
     NvimTreeExecFile         = { fg = colors.green },
     NvimTreeFolderIcon       = { fg = colors.comment },
     NvimTreeFolderName       = { fg = colors.white1 },
@@ -485,7 +485,7 @@ M.plugins = {
     TelescopeBorder       = { fg = colors.white, bg = config.transparent_background and 'NONE' or colors.bg },
     TelescopeMatching     = { fg = colors.blue_type },
     TelescopePromptPrefix = { fg = colors.green_func },
-    TelescopeSelection    = { fg = colors.line_fg, bg = colors.black },
+    TelescopeSelection    = { fg = colors.white, bg = colors.line_fg },
     -----------------------------------------
 
     -----------------------------------------
