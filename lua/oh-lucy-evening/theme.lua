@@ -83,7 +83,7 @@ M.base = {
     Operator   = { fg = colors.white },
     Pmenu      = { fg = colors.white1, bg = colors.black },
     PmenuSbar  = { bg = colors.gray },
-    PmenuSel   = { fg = colors.line_fg, bg = colors.black },
+    PmenuSel   = { fg = colors.white, bg = colors.line_fg },
     PmenuThumb = { bg = colors.black },
     PreCondit  = { fg = colors.blue_type },
     PreProc    = { fg = colors.blue_type },
@@ -457,7 +457,7 @@ M.plugins = {
     -----------------------------------------
     NvimTreeFolderIcon       = { fg = colors.orange },
     NvimTreeEmptyFolderName  = { fg = colors.yellow, style = "italic" },
-    NvimTreeCursorLine       = { fg = colors.line_fg, bg = colors.black1 },
+    NvimTreeCursorLine       = { fg = colors.white, bg = colors.line_fg},
     NvimTreeExecFile         = { fg = colors.green },
     NvimTreeFolderIcon       = { fg = colors.comment },
     NvimTreeFolderName       = { fg = colors.white1 },
